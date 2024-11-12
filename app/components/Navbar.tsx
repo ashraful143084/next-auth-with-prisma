@@ -13,7 +13,7 @@ const Navbar = async () => {
         Home
       </Link>
       <div className="font-semibold text-white text-md flex justify-between items-center gap-5">
-        <Link href="/middleware">Middleware</Link>
+        <Link href="/client-component">Client</Link>
         {session?.user?.email && <Link href="/server">Server</Link>}
         <Link href="/contact">Contact</Link>
       </div>
